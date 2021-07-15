@@ -1,0 +1,28 @@
+#SENDER epg554-1-pgw
+#FILEOPENDATE 2020-10-22
+
+#Record
+POST /nchf-convergedcharging/v2/chargingdata HTTP/1.1
+Host: nchf-ins1
+Content-Type: application/json
+Content-Length: 1419
+
+{"invocationSequenceNumber":0,"invocationTimeStamp":"2020-10-22T07:35:32Z","nfConsumerIdentification":{"nFFqdn":"smf-1.ericsson.com","nFIPv4Address":"5.128.0.3","nFName":"12345678-1234-1234-1234-000000000001","nFPLMNID":{"mcc":"240","mnc":"01"},"nodeFunctionality":"SMF"},"notifyUri":"http://5.128.0.9:9090/notifications/chf/convergedcharging/v2/referenceid/714128496","pDUSessionChargingInformation":{"chargingId":2617246377,"pduSessionInformation":{"chargingCharacteristics":"0000","chargingCharacteristicsSelectionMode":"HOME_DEFAULT","dnnId":"apn1.com","hPlmnId":{"mcc":"240","mnc":"001"},"networkSlicingInfo":{"sNSSAI":{"sd":"00000A","sst":1}},"pduAddress":{"iPv4dynamicAddressFlag":true,"pduIPv4Address":"106.0.0.2"},"pduSessionID":7,"pduType":"IPV4","ratType":"EUTRA","servingCNPlmnId":{"mcc":"240","mnc":"01"},"servingNetworkFunctionID":{"servingNetworkFunctionInformation":{"nFIPv4Address":"11.0.1.131","nodeFunctionality":"SGW"}},"startTime":"2020-10-22T07:35:32Z","subscribedQoSInformation":{"5qi":5,"arp":{"preemptCap":"NOT_PREEMPT","preemptVuln":"PREEMPTABLE","priorityLevel":11}},"subscribedSessionAMBR":{"downlink":"4096Kbps","uplink":"2048Kbps"}},"userInformation":{"unauthenticatedFlag":false},"userLocationinfo":{"eutraLocation":{"ecgi":{"eutraCellId":"0000001","plmnId":{"mcc":"240","mnc":"01"}},"tai":{"plmnId":{"mcc":"240","mnc":"01"},"tac":"0000"}}}},"subscriberIdentifier":"imsi-240011314944555"}
+
+#Record
+POST /nchf-convergedcharging/v2/chargingdata/1234567/update HTTP/1.1
+Host: nchf-ins1
+Content-Type: application/json
+Content-Length: 2043
+
+{"invocationSequenceNumber":1,"invocationTimeStamp":"2020-10-22T07:35:32Z","multipleUnitUsage":[{"ratingGroup":99,"usedUnitContainer":[{"downlinkVolume":30,"localSequenceNumber":1,"quotaManagementIndicator":"OFFLINE_CHARGING","serviceId":99,"totalVolume":50,"triggerTimestamp":"2020-10-22T07:35:32Z","triggers":[{"triggerCategory":"IMMEDIATE_REPORT","triggerType":"VOLUME_LIMIT"}],"uplinkVolume":20},{"downlinkVolume":20,"localSequenceNumber":2,"quotaManagementIndicator":"OFFLINE_CHARGING","totalVolume":50,"triggerTimestamp":"2020-10-22T07:35:32Z","triggers":[{"triggerCategory":"IMMEDIATE_REPORT","triggerType":"VOLUME_LIMIT"}],"uplinkVolume":30}]}],"nfConsumerIdentification":{"nFFqdn":"smf-1.ericsson.com","nFIPv4Address":"5.128.0.3","nFName":"12345678-1234-1234-1234-000000000001","nFPLMNID":{"mcc":"240","mnc":"01"},"nodeFunctionality":"SMF"},"notifyUri":"http://5.128.0.9:9090/notifications/chf/convergedcharging/v2/referenceid/714128496","pDUSessionChargingInformation":{"chargingId":2617246377,"pduSessionInformation":{"chargingCharacteristics":"0000","chargingCharacteristicsSelectionMode":"HOME_DEFAULT","dnnId":"apn1.com","hPlmnId":{"mcc":"240","mnc":"001"},"networkSlicingInfo":{"sNSSAI":{"sd":"00000A","sst":1}},"pduAddress":{"iPv4dynamicAddressFlag":true,"pduIPv4Address":"106.0.0.2"},"pduSessionID":7,"pduType":"IPV4","ratType":"EUTRA","servingCNPlmnId":{"mcc":"240","mnc":"01"},"servingNetworkFunctionID":{"servingNetworkFunctionInformation":{"nFIPv4Address":"11.0.1.131","nodeFunctionality":"SGW"}},"subscribedQoSInformation":{"5qi":5,"arp":{"preemptCap":"NOT_PREEMPT","preemptVuln":"PREEMPTABLE","priorityLevel":11}},"subscribedSessionAMBR":{"downlink":"4096Kbps","uplink":"2048Kbps"}},"userInformation":{"unauthenticatedFlag":false},"userLocationinfo":{"eutraLocation":{"ecgi":{"eutraCellId":"0000001","plmnId":{"mcc":"240","mnc":"01"}},"tai":{"plmnId":{"mcc":"240","mnc":"01"},"tac":"0000"}}}},"subscriberIdentifier":"imsi-240011314944555","triggers":[{"triggerCategory":"IMMEDIATE_REPORT","triggerType":"VOLUME_LIMIT"}]}
+
+#Record
+POST /nchf-convergedcharging/v2/chargingdata/1234567/release HTTP/1.1
+Host: nchf-ins1
+Content-Type: application/json
+Content-Length: 1729
+
+{"invocationSequenceNumber":2,"invocationTimeStamp":"2020-10-22T07:35:32Z","multipleUnitUsage":[{"ratingGroup":99,"usedUnitContainer":[{"downlinkVolume":30,"localSequenceNumber":3,"quotaManagementIndicator":"OFFLINE_CHARGING","totalVolume":50,"triggerTimestamp":"2020-10-22T07:35:32Z","triggers":[{"triggerCategory":"IMMEDIATE_REPORT","triggerType":"FINAL"}],"uplinkVolume":20}]}],"nfConsumerIdentification":{"nFFqdn":"smf-1.ericsson.com","nFIPv4Address":"5.128.0.3","nFName":"12345678-1234-1234-1234-000000000001","nFPLMNID":{"mcc":"240","mnc":"01"},"nodeFunctionality":"SMF"},"pDUSessionChargingInformation":{"chargingId":2617246377,"pduSessionInformation":{"chargingCharacteristics":"0000","chargingCharacteristicsSelectionMode":"HOME_DEFAULT","dnnId":"apn1.com","hPlmnId":{"mcc":"240","mnc":"001"},"networkSlicingInfo":{"sNSSAI":{"sd":"00000A","sst":1}},"pduAddress":{"iPv4dynamicAddressFlag":true,"pduIPv4Address":"106.0.0.2"},"pduSessionID":7,"pduType":"IPV4","ratType":"EUTRA","servingCNPlmnId":{"mcc":"240","mnc":"01"},"servingNetworkFunctionID":{"servingNetworkFunctionInformation":{"nFIPv4Address":"11.0.1.131","nodeFunctionality":"SGW"}},"sessionStopIndicator":true,"stopTime":"2020-10-22T07:35:32Z","subscribedQoSInformation":{"5qi":5,"arp":{"preemptCap":"NOT_PREEMPT","preemptVuln":"PREEMPTABLE","priorityLevel":11}},"subscribedSessionAMBR":{"downlink":"4096Kbps","uplink":"2048Kbps"}},"userInformation":{"unauthenticatedFlag":false},"userLocationinfo":{"eutraLocation":{"ecgi":{"eutraCellId":"0000001","plmnId":{"mcc":"240","mnc":"01"}},"tai":{"plmnId":{"mcc":"240","mnc":"01"},"tac":"0000"}}}},"subscriberIdentifier":"imsi-240011314944555","triggers":[{"triggerCategory":"IMMEDIATE_REPORT","triggerType":"FINAL"}]}
+
+#CHECKSUM 0x6de48073

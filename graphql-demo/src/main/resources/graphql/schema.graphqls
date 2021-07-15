@@ -1,0 +1,14 @@
+type Post {
+    id: String!
+    title: String!
+    category: String!
+    authorId: String!
+}
+
+type Query {
+  getRecentPosts(id: String): Post!
+}
+
+schema {
+  query: Query
+}

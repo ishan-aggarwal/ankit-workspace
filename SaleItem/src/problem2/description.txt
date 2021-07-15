@@ -1,0 +1,7 @@
+1. I created enum to define CustomerType(GENERAL, SENIOR, PREFERRED),
+the customer type is passed in the Sale costructor while creating the object.
+In getDiscountRate() method, switch case is used to set the discount rate according to the
+customer type.
+
+Test case is created for Preferred customer to test the use case and differentiate the discount
+percentage.

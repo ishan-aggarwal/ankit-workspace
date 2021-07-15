@@ -1,0 +1,24 @@
+KWIC Directions 
+
+Prior to running this program, update the configuration file with your selections
+and preferences:  
+
+1. Select preferred Input type:
+	- Fileinput: 
+	- Consoleinput:
+
+2. Option to select if sort should be Case Sensitive: 
+
+3. Option to add Stop Words: 
+
+4. Select preferred Output type: 
+	- FileOutput
+	- ConsoleOutput
+
+5. Output line-count 
+	- Line-count Before circular-shifted lines
+	- Line-count After circular-shifted lines
+
+6. Option to add header and footer for file 
+	
+

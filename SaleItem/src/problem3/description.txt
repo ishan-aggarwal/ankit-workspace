@@ -1,0 +1,7 @@
+Code using Calendar object is used to check the Day of week to identify whether today is Tuesday or not for
+Senior Customer.
+The condition is added in the switch case for senior citizen. and the additional discount is added for
+senior customer only if the day is Tuesday.
+
+For Preferred customer, there is no such condition. and the additional discount remains same
+on all days.

@@ -1,0 +1,568 @@
+
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<link rel=File-List href="excel.htm.files/filelist.xml">
+<link rel=Edit-Time-Data href="excel.htm.files/editdata.mso">
+<link rel=OLE-Object-Data href="excel.htm.files/oledata.mso">
+<style>
+<!--table
+	{mso-displayed-decimal-separator: ".";
+	mso-displayed-thousand-separator: ",";}
+@page
+	{margin:.98in .79in .98in .79in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+
+* {background: transparent;}
+
+tr
+	{mso-height-source:userset;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+
+button, .no-print-section {display:none;}
+
+.stylehyperlink {
+	color:black;
+	text-decoration:none;
+	mso-style-id:8;
+}
+
+a, a:link, a:visited {color:black; text-decoration: none;}
+.tab_header {color:#000000; font-weight:bold; font-size:15pt;}
+table, tr, td, tr.header, tr.total, tr.odd, tr.even, tr.subheader, tr.subtotal,
+.t_text_1, .t_text, .h_1, .h_1_1, .h_2, .h_2_1, .h_1_rep, .rep_row,
+.rep_row_percent2, .rep_row_money0, .rep_row_money2, .rep_row_money4, .rep_row_numeric, .rep_row_decimal2, .rep_row_decimal3, .rep_row_decimal4,
+.h_2_percent2, .h_2_money2, .h_2_numeric, .h_2_decimal2, .h_2_decimal3,
+.t_text_percent2, .t_text_money2, .t_text_numeric, .t_text_decimal2, .t_text_decimal3, .t_text_decimal4 {
+	color:black; background: transparent; background-image: none;
+}
+.rep_row, .rep_row td, .tblReport tr.odd td, .tblReport tr.even td,
+.rep_row_percent2, .rep_row_money0, .rep_row_money2, .rep_row_money4, .rep_row_numeric, .rep_row_decimal2, .rep_row_decimal3, .rep_row_decimal4,
+.rep_row_percent2 td, .rep_row_money0 td, .rep_row_money2 td, .rep_row_money4 td, .rep_row_numeric td, .rep_row_decimal2 td, .rep_row_decimal3 td, .rep_row_decimal4 td {
+	color:black; border-bottom: .5pt hairline black;
+}
+.h_2, .h_2_1, .h_2_t, .h_2_n, .tblReport tr.subheader td, .tblReport tr.subtotal td,
+tr.subheader td, tr.subtotal td,
+.h_2_percent2, .h_2_money2, .h_2_numeric, .h_2_decimal2, .h_2_decimal3 {
+	color:#000000; font-weight:bold; border-bottom: .5pt solid black;
+}
+.h_2_t {
+	mso-style-parent:td;
+	background: #CCFFCC;
+	mso-pattern:white;
+}
+.h_1, .h_1_rep, .h_1_1, .t_text_1, .t_text, .tblReport tr.header td, .tblReport tr.total td,
+tr.header td, tr.total td, .t_text_1 td, .t_text td,
+.t_text_percent2, .t_text_money2, .t_text_numeric, .t_text_decimal2, .t_text_decimal3, .t_text_decimal4,
+.t_text_percent2 td, .t_text_money2 td, .t_text_numeric td, .t_text_decimal2 td, .t_text_decimal3 td, .t_text_decimal4 td {
+	color:#000000; font-weight:bold; border-bottom: .5pt solid windowtext; background: #CCFFCC;
+}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align: middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial";
+	mso-generic-font-family:auto;}
+.tdnumeric {
+	mso-style-parent:style0;
+	mso-number-format:General;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt hairline windowtext;
+	border-left:none;
+	mso-pattern:auto none;
+	text-align:right;
+}
+
+.tdnumeric_rep_row {
+	mso-style-parent:style0;
+	mso-number-format:General;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt hairline windowtext;
+	border-left:none;
+	mso-pattern:auto none;
+	text-align:right;
+	background-image: url(/images/1/t_fon.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial";
+	mso-generic-font-family:auto;
+    mso-number-format:General;
+	vertical-align:middle;
+	border:none;
+	height: 30px;
+	mso-background-source:auto;
+	mso-pattern: white;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.header, .header_money0
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	font-weight:700;
+	mso-pattern:white;}
+.header1
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	/*background:#99CCFF;*/
+	font-weight:700;
+	mso-pattern:auto none;}
+.header2, .header2_text
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	/*background:#CCFFFF;*/
+	font-weight:700;
+	mso-pattern:auto none;}
+.total
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	/*background:#CCFFCC;*/
+	font-weight:700;
+	mso-pattern:auto none;}
+.subheader
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	/*background:#FFFF99;*/
+	mso-pattern:auto none;}
+.subtotal
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	/*background:#FFFF99;*/
+	mso-pattern:auto none;}
+.left {mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt hairline windowtext;
+	border-left:none;
+        text-align:left;
+	mso-pattern:auto none;}
+.right {
+	mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt hairline windowtext;
+	border-left:none;
+	mso-pattern:auto none;
+	text-align:right;
+}
+.money4, .rep_row_money4 {
+	mso-style-parent:style0;
+    mso-number-format:"$#,##0.0000;\\\($#,##0.0000\\\)";
+	border-top:none;
+	border-right:nonet;
+	border-bottom:.5pt hairline windowtext;
+	border-left:none;
+	mso-pattern:auto none;
+	text-align:right;
+}
+.money0, .header_money0, .rep_row_money0 {
+    mso-style-parent:style0;
+    mso-number-format:"$#,##0;\\\($#,##0\\\)";
+    border-top:none;
+    border-right:none;
+    border-bottom:.5pt hairline windowtext;
+    border-left:none;
+    mso-pattern:auto none;
+    text-align:right;
+}
+.money2, .rep_row_money2, .h_2_money2, .t_text_money2 {
+	mso-style-parent:style0;
+	mso-number-format:"$#,##0.00;\\\($#,##0.00\\\)";
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt hairline windowtext;
+	border-left:none;
+	mso-pattern:auto none;
+	text-align:right;
+}
+
+.t_text_money2{
+	border-bottom:.5pt solid windowtext;
+}
+
+.money5 {
+	mso-style-parent:style0;
+	mso-number-format:"$#,##0.00#;\\\($#,##0.00#\\\)";
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt hairline windowtext;
+	border-left:none;
+	mso-pattern:auto none;
+	text-align:right;
+}
+.money3 {
+    mso-style-parent:style0;
+    mso-number-format:"$#,##0.000;\\\($#,##0.000\\\)";
+    border-top:none;
+    border-right:none;
+    border-bottom:.5pt hairline windowtext;
+    border-left:none;
+    mso-pattern:auto none;
+    text-align:right;
+}
+.date {
+	mso-style-parent:style0;
+	mso-number-format:"\[ENG\]\[$-409\]dd\\-mmm\\-yy\;\@";
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt hairline windowtext;
+	border-left:none;
+	mso-pattern:auto none;
+	text-align:center;
+}
+.datetime {
+	mso-style-parent:style0;
+	mso-number-format:"\[$-409\]mm\/dd\/yy\\ h\:mm\\ AM\/PM\;\@";
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt hairline windowtext;
+	border-left:none;
+	mso-pattern:auto none;
+	text-align:center;
+}
+.simpledate {
+	mso-style-parent:style0;
+	mso-number-format:"\[ENG\]\[$-409\]dd\\/mm\\/yy\;\@";
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt hairline windowtext;
+	border-left:none;
+	mso-pattern:auto none;
+	text-align:left;
+}
+.simpledate2 {
+	mso-style-parent:style0;
+	mso-number-format:"\[ENG\]\[$-409\]mm\\/dd\\/yy\;\@";
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt hairline windowtext;
+	border-left:none;
+	mso-pattern:auto none;
+	text-align:center;
+}
+.textdate {
+    mso-style-parent:style0;
+    mso-number-format:"\@";
+}
+.percent {
+    mso-style-parent:style0;
+    mso-number-format:"Percent"
+}
+.percent2, .rep_row_percent2, .h_2_percent2, .t_text_percent2 {
+    mso-style-parent:style0;
+    mso-number-format:"\#\,\#\#0\.00\%\;\\\(\#\#\,\#\#0\.00\%\\\)";
+    border-top:none;
+    border-right:none;
+    border-bottom:.5pt hairline windowtext;
+    border-left:none;
+    mso-pattern:auto none;
+    text-align:right;
+}
+.textcell, .rep_row_text, .h_1_text, .h_2_text, .header2_text {
+    mso-style-parent:style0;
+    mso-number-format:"\@";
+    border-top:none;
+    border-right:none;
+    border-bottom:.5pt hairline windowtext;
+    border-left:none;
+    mso-pattern:auto none;
+}
+.numeric, .rep_row_numeric, .h_2_numeric, .t_text_numeric, .total_numeric {
+	mso-style-parent:style0;
+	mso-number-format:"#,##0;\\\(#,##0\\\)";
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt hairline windowtext;
+	border-left:none;
+	mso-pattern:auto none;
+	text-align:right;
+}
+.number {
+	mso-style-parent:style0;
+	mso-number-format:"0";
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt hairline windowtext;
+	border-left:none;
+	mso-pattern:auto none;
+	text-align:right;
+}
+.decimal2, .rep_row_decimal2, .h_2_decimal2, .t_text_decimal2 {
+	mso-style-parent:style0;
+	mso-number-format:"\#\,\#\#0\.00\;\\\(\#\#\,\#\#0\.00\\\)";
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt hairline windowtext;
+	border-left:none;
+	mso-pattern:auto none;
+	text-align:right;
+	vertical-align: middle;
+}
+.decimal3, .rep_row_decimal3, .h_2_decimal3, .t_text_decimal3 {
+    mso-style-parent:style0;
+    mso-number-format:"\#\,\#\#0\.000\;\\\(\#\#\,\#\#0\.000\\\)";
+    border-top:none;
+    border-right:none;
+    border-bottom:.5pt hairline windowtext;
+    border-left:none;
+    mso-pattern:auto none;
+    text-align:right;
+}
+.decimal4, .rep_row_decimal4, .h_2_decimal4, .t_text_decimal4 {
+    mso-style-parent:style0;
+    mso-number-format:"#,##0.0000;\\\(#,##0.0000\\\)";
+    border-top:none;
+    border-right:none;
+    border-bottom:.5pt hairline windowtext;
+    border-left:none;
+    mso-pattern:auto none;
+    text-align:right;
+}
+
+.rep_border {
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt hairline windowtext;
+	border-left:none;
+}
+.percent {
+	mso-style-parent:style0;
+	mso-number-format:"0.00%";
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt hairline windowtext;
+	border-left:none;
+	mso-pattern:auto none;
+	text-align:right;
+}
+.h_2_percent2, .h_2_money2, .h_2_numeric, .h_2_decimal2, .h_2_decimal3 {
+    color:#659521; font-weight:bold; border-bottom: .5pt solid windowtext;
+}
+.total_numeric {
+    border-bottom:.5pt solid windowtext;
+    /*background:#CCFFCC;*/
+    font-weight:700;
+}
+
+
+table .table_header .header_cell{
+	border:0.5pt solid #000;
+	mso-border-right-alt: solid #903010 0;
+	mso-border-bottom-alt: solid #903010 0;
+	mso-border-left-alt: solid #903010 0;
+	mso-border-top-alt: solid #903010 2pt;
+}
+-->
+</style>
+</head>
+
+<body link=black vlink=black>
+
+
+
+
+		<table border="0" cellspacing="0" cellpadding="0" class="tab_f">
+
+			<tbody><tr>
+
+				<td nowrap="" class="tab_header">
+
+					Direct Connect Log
+
+				</td>
+
+				<td align="right" valign="bottom"></td>
+
+			</tr>
+
+		</tbody></table>
+
+		<b>Period:</b> from 04/28/2021 to 05/28/2021<br>
+
+<b>Report date and time:</b>  04/28/2021 05:29:53 AM EDT
+
+		&lt;style&gt;
+
+
+
+.paginator-wrap{
+
+	overflow: hidden;
+
+	clear: both;	
+
+	height: 40px;
+
+	text-align: center;
+
+	padding-top: 8px;]
+
+}
+
+
+
+.paginator{ 
+
+	float: right;
+
+}
+
+
+
+.paginator li {
+
+	display: inline;
+
+	margin: 2px;
+
+	text-align: center;
+
+	padding: 0;
+
+}
+
+
+
+.paginator a,
+
+.paginator a:visited{
+
+	color: #eee;
+
+	padding: 2px 8px;
+
+	background-color: #6EBA02;
+
+	border: 1px solid #589102;
+
+	height: 16px;
+
+}
+
+
+
+.paginator a:hover{
+
+	color: #fff;
+
+}
+
+
+
+.paginator .legend {
+
+	color: #444;
+
+    text-transform: lowercase;
+
+}
+
+
+
+.paginator .cur{
+
+	background-color: #589102;
+
+}
+
+
+
+&lt;/style&gt;
+
+
+
+
+
+<div class="paginator-wrap">
+
+    
+
+</div>	
+
+		
+
+<table class="tblReport" cellpadding="0" cellspacing="1" border="0" >
+
+	<thead>
+
+	
+
+<tr class="header" bgcolor="D8D9DD">
+
+    <td class="asc_desc"   0)">Name</td><td class="asc_desc"   0)">Event Time</td><td class="asc_desc"   0)">Event</td><td class="asc_desc"   0)">Description</td><td class="asc_desc"  >Status</td></tr>	</thead>
+
+	<tbody>
+
+	</tbody>
+
+</table>
+
+
+
+	
+
+
+
+<table cellpadding="0" cellspacing="0" valign="top">
+	<tr><td colSpan = "10">&nbsp;</td></tr>
+	<tr><td colSpan = "10">&nbsp;</td></tr>
+	<tr>
+		<td valign="top" align="center" colSpan = "10"><font size=2>This report is compiled from records furnished by the client and has not been audited or verified. &copy; Copyright Petrosoft LLC</font></td>
+	</tr>
+</table>
+
+
+</body>
+
+</html>

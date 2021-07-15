@@ -1,0 +1,8 @@
+I created a DiscountPolicy enum and defined 2 policies - BASIC and MORE_THAN_ONE.
+
+This policy is set in each item. Therefore, in this way, we can have different policy passed into
+item's object while creating its object.
+
+Then, in Item class-> getItemTotal() method, I have written the logic to calculate the total price
+based on the given requirement - i.e., to have 50% off on second and further items.
+This logic would be executed only if the discount policy is MORE_THAN_ONE.

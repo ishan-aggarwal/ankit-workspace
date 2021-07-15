@@ -1,0 +1,14 @@
+# Add packages here to install them as dependencies
+
+requests == 2.25.0
+PyYAML == 5.4.1
+flask == 1.1.2
+# mysqlclient==2.0.3
+mysql-connector-python==8.0.23
+pytest==3.4.2
+Flask-Cors==3.0.8
+# pytest-cov==2.5.1
+# pytest-dependency==0.2
+fastapi~=0.63.0
+uvicorn~=0.13.3
+pydantic~=1.7.3

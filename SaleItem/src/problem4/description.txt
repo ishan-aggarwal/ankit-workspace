@@ -1,0 +1,10 @@
+I created a Customer class which has the basic discount of 0.05
+Then, I created 2 subclasses(child class) of Customer class - SeniorCustomer and PreferredCustomer.
+
+getDiscountRate() is overrided in both the child classes.
+
+the customer object is passed in Sale's object. based on the which customer object is passed,
+as per dynamic polymorphism, the corresponding customer object's getDiscountRate() method is called.
+
+the getDiscountRate() further calls parent's class getDiscountRate() method to get the basic discount.
+and it gets added with the additional discount.
